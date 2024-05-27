@@ -1,0 +1,97 @@
+.task {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 123px;
+  margin: 28px 0 0 24px;
+  background: #ffffff;
+  overflow: visible auto;
+  border-radius: 20px;
+}
+.title {
+  margin: 20px 0 0 20px;
+  color: #171a1f;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.75px;
+
+  white-space: nowrap;
+}
+.flex-row-dbb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 102px;
+  height: 19px;
+  margin: 8px 0 0 20px;
+}
+.frame-2f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 54px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+  background: #f0f0ff;
+  border: none;
+  z-index: 70;
+  overflow: hidden;
+  border-radius: 1000px;
+}
+.behance {
+  height: 11px;
+  color: #1010d5;
+  font-size: 9px;
+  font-weight: 400;
+  text-align: left;
+  white-space: nowrap;
+}
+.frame-30 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 41px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+  background: #e6feeb;
+  border: none;
+  z-index: 77;
+  overflow: hidden;
+  border-radius: 1000px;
+}
+.label {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 11px;
+  color: #43cb5b;
+
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 78;
+}
+.flex-row-d-31 {
+  width: 156px;
+  height: 22px;
+  margin: 21px 0 0 20px;
+}
+
+.date {
+  color: #979797;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  white-space: nowrap;
+}

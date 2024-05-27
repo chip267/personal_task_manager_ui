@@ -4,7 +4,7 @@ import "./ActivityCard.css";
 
 const ActivityCard = () => {
   return (
-    <Flex className="rectangle-27" gap="small" justify="center" align="center">
+    <Flex className="activity-card" gap="small" justify="center" align="center">
       <Flex gap="small" vertical>
         <span className="activities">Activities</span>
         <Flex justify="start" align="center">

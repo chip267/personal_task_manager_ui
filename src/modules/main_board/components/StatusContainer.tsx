@@ -11,14 +11,16 @@ const StatusContainer = ({ status, backgroundColor, titleColor }) => {
   });
 
   return (
-    <div
+    <Flex
       style={statusStyle(backgroundColor, titleColor)}
       className="status-container"
+      vertical
+      gap="middle"
     >
       <span className="status">{status}</span>
       <TaskCard />
       <TaskCard />
-    </div>
+    </Flex>
   );
 };
 

@@ -9,7 +9,7 @@ import {
 
 const ParticipantsCard = () => {
   return (
-    <Flex vertical gap="small" className="rectangle-17">
+    <Flex vertical gap="small" className="participants-card">
       <span className="participants">Participants</span>
       <Flex justify="space-between" align="center">
         <Avatar.Group

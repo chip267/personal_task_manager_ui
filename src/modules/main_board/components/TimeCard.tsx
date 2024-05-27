@@ -4,7 +4,7 @@ import { Divider, Flex } from "antd";
 
 const TimeCard = () => {
   return (
-    <Flex className="rectangle-23" gap="small" justify="center" align="center">
+    <Flex className="time-card" gap="small" justify="center" align="center">
       <Flex gap="small" vertical>
         <span className="time">Time</span>
         <Flex justify="start" align="center">

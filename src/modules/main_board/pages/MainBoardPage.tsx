@@ -62,7 +62,7 @@ const MainBoardPage = () => {
         <TimeCard />
         <ActivityCard />
       </Flex>
-      <Flex justify="space-between">
+      <Flex gap="middle">
         <StatusContainer
           status="To do"
           backgroundColor="#FDF8EA"

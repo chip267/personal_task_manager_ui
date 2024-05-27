@@ -1,5 +1,5 @@
 import { UserOutlined } from "@ant-design/icons";
-import { Avatar, Drawer, Flex } from "antd";
+import { Avatar, Badge, Drawer, Flex } from "antd";
 import React, { useState } from "react";
 import "./TaskCard.css";
 
@@ -15,7 +15,7 @@ const TaskCard = () => {
   return (
     <>
       <Drawer
-        title="Basic Drawer"
+        title="General"
         onClose={onClose}
         open={openEditDrawer}
         size="large"
@@ -24,17 +24,17 @@ const TaskCard = () => {
         <p>Some contents...</p>
         <p>Some contents...</p>
       </Drawer>
-      <div onClick={showDrawer} className="task">
-        <span className="title">Cho meo an</span>
-        <div className="flex-row-dbb">
+      <Flex vertical gap="small" onClick={showDrawer} className="task">
+        <span className="task-title">Cho meo an</span>
+        <Flex vertical={false} gap="small">
           <button className="frame-2f">
             <span className="behance">Behance</span>
           </button>
           <button className="frame-30">
             <span className="label">Label</span>
           </button>
-        </div>
-        <Flex gap="small" className="flex-row-d-31" align="center">
+        </Flex>
+        <Flex gap="small" align="center" style={{ marginTop: 12 }}>
           <span className="date">May 14, 2024</span>
           <span className="date">May 14, 2024</span>
           <Avatar
@@ -45,7 +45,7 @@ const TaskCard = () => {
             icon={<UserOutlined />}
           />
         </Flex>
-      </div>
+      </Flex>
     </>
   );
 };
